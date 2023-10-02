@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: whitesmoke;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    /*width: 33.3%;*//*for three cards*/
+    width: 50%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 #A70000;
+    /*background-color: #F45050;*/
+    background-color: #fd3f3c21;
+    /*background-color:#f2404d;*/
+    color: #A70000;
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: whitesmoke;
+    color: black;
+  }
+
+  .about {
+    padding: 1px;
+    /*text-align: center;*/
+    background-color: whitesmoke;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: rgb(18, 18, 18);
+    text-shadow: none;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  .cs {
+    box-shadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)';
+    background-color: whitesmoke;
+}
+
+/*
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+
+    display: flex;
+
+    text-align: center;
+    color: black;
+}
+
+.bgm {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://wallpapers.com/images/hd/mind-body-practice-qi-gong-kbcwxbztbnv5jhqz.jpg");
+    /*background-size: cover;
+    background-position: center;
+    height: 100vh;*/
+/*}
+*/
+/*
+.about h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 24px;
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}*/

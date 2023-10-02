@@ -1,0 +1,130 @@
+.practice-exercise-container {
+    margin: 20px;
+}
+
+.practice-exercise-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.practice-exercise-info {
+    width: 60%;
+    margin-left: 15%;
+}
+
+.practice-exercise-camera {
+    width: 35%;
+}
+
+.practice-exercise-camera video {
+    border: 1px solid black;
+    height: 250px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.practice-exercise-camera button {
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.practice-exercise-camera button:hover {
+    background-color: red;
+}
+
+.list-group {
+    text-align: left;
+    margin:"10px"
+}
+
+.button-33 {
+    background-color: red;
+    border-radius: 100px;
+    box-shadow: rgba(187, 44, 44, 0.2) 0 -25px 18px -14px inset, rgba(187, 44, 44, 0.15) 0 1px 2px, rgba(187, 44, 44, 0.15) 0 2px 4px, rgba(187, 44, 63, 0.15) 0 4px 8px, rgba(187, 87, 44, 0.15) 0 8px 16px, rgba(187, 87, 44, 0.15) 0 16px 32px;
+    color: whitesmoke;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    max-width: 20%;
+}
+.button-44 {
+    background-color: whitesmoke;
+    border-radius: 100px;
+    box-shadow: rgba(252, 207, 207, 0.445) 0 -25px 18px -14px inset, rgba(255, 210, 210, 0.385) 0 1px 2px, rgba(249, 114, 114, 0.537) 0 2px 4px, rgba(187, 61, 44, 0.363) 0 4px 8px, rgba(253, 155, 155, 0.15) 0 8px 16px, rgba(255, 173, 105, 0.15) 0 16px 32px;
+    color: red;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    max-width: 20%;
+}
+.button-44:hover {
+    box-shadow: rgba(182, 160, 160, 0.684) 0 -25px 18px -14px inset, rgba(231, 179, 188, 0.832) 0 1px 2px, rgba(190, 132, 136, 0.782) 0 2px 4px, rgba(204, 213, 207, 0.25) 0 4px 8px, rgba(192, 202, 196, 0.25) 0 8px 16px, rgba(208, 215, 211, 0.25) 0 16px 32px;
+    /* transform: scale(1.05) rotate(-1deg); */
+    transform: scale(1.05);
+}
+.button-33:hover {
+    box-shadow: rgba(182, 160, 160, 0.684) 0 -25px 18px -14px inset, rgba(231, 179, 188, 0.832) 0 1px 2px, rgba(190, 132, 136, 0.782) 0 2px 4px, rgba(204, 213, 207, 0.25) 0 4px 8px, rgba(192, 202, 196, 0.25) 0 8px 16px, rgba(208, 215, 211, 0.25) 0 16px 32px;
+    /* transform: scale(1.05) rotate(-1deg); */
+    transform: scale(1.05);
+}
+
+/* .button-33::before {
+    color: red;
+    background-color: #fbc6c2;
+} */
+
+#pose-table {
+    width: 20%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+#pose-table td, #pose-table th {
+    border: 2px solid black;
+    padding: 8px;
+}
+
+#pose-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#pose-table tr:hover {
+    background-color: #ddd;
+}
+
+#pose-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: red;
+    color: whitesmoke;
+}
